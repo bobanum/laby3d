@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module">
+        import Laby from "./src/Laby.js";
+        var laby = new Laby(2,2,2);
+        laby.generate();
+        laby.display("#plateau", 1);
+    </script>
+    <title>Laby 3d</title>
+</head>
+<body>
+    <div id="plateau"></div>
+</body>
+</html>
