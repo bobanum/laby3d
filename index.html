@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="laby3d.css">
     <script type="module">
         import Laby from "./src/Laby.js";
-        var laby = new Laby(2,2,2);
+        var laby = new Laby(4,4,1);
         laby.generate();
-        laby.display("#plateau", 1);
+        // laby.display("#plateau", 0);
+        alert(laby.ascii(0));
     </script>
     <title>Laby 3d</title>
 </head>
